@@ -1,10 +1,10 @@
-# @rafaeldasilvadeveloper/fast-media-tags
+# @rafaelsilvadeveloper/fast-media-tags
 
 An ultra-lightweight, zero-dependency, and extremely fast binary ID3v2 tag parser for Node.js, Bun, Edge, and browser environments.
 
-[![NPM Version](https://img.shields.io/npm/v/@rafaeldasilvadeveloper/fast-media-tags.svg?style=flat-square)](https://www.npmjs.com/package/@rafaeldasilvadeveloper/fast-media-tags)
+[![NPM Version](https://img.shields.io/npm/v/@rafaelsilvadeveloper/fast-media-tags.svg?style=flat-square)](https://www.npmjs.com/package/@rafaelsilvadeveloper/fast-media-tags)
 [![Discord Support](https://img.shields.io/discord/1111111111?color=7289da&label=Discord&logo=discord&style=flat-square)](https://discord.gg/7Fw7snafYS)
-[![Zero Dependencies](https://img.shields.io/badge/dependencies-zero-blueviolet.svg?style=flat-square)](https://www.npmjs.com/package/@rafaeldasilvadeveloper/fast-media-tags)
+[![Zero Dependencies](https://img.shields.io/badge/dependencies-zero-blueviolet.svg?style=flat-square)](https://www.npmjs.com/package/@rafaelsilvadeveloper/fast-media-tags)
 
 ## Features
 
@@ -16,7 +16,7 @@ An ultra-lightweight, zero-dependency, and extremely fast binary ID3v2 tag parse
 ## Installation
 
 ```bash
-npm install @rafaeldasilvadeveloper/fast-media-tags
+npm install @rafaelsilvadeveloper/fast-media-tags
 ```
 
 ## Usage
@@ -24,7 +24,7 @@ npm install @rafaeldasilvadeveloper/fast-media-tags
 ### Reading tags from an ArrayBuffer
 
 ```typescript
-import { readAudioTags } from '@rafaeldasilvadeveloper/fast-media-tags';
+import { readAudioTags } from '@rafaelsilvadeveloper/fast-media-tags';
 
 // In browser or bun
 const buffer = await file.arrayBuffer();
@@ -38,7 +38,7 @@ console.log(tags.album);  // 'Grid Horizons'
 ### Reading tags from a Blob / File (Browser or Bun)
 
 ```typescript
-import { readAudioTags } from '@rafaeldasilvadeveloper/fast-media-tags';
+import { readAudioTags } from '@rafaelsilvadeveloper/fast-media-tags';
 
 // Directly pass a Blob or HTML5 File object
 const tags = await readAudioTags(fileBlob);
@@ -52,7 +52,7 @@ if (tags.picture) {
 ### Reading tags from a local File Path (Node.js & Bun)
 
 ```typescript
-import { readAudioTags } from '@rafaeldasilvadeveloper/fast-media-tags';
+import { readAudioTags } from '@rafaelsilvadeveloper/fast-media-tags';
 
 const tags = await readAudioTags('./music/track.mp3');
 console.log(`Title: ${tags.title}, Year: ${tags.year}`);
