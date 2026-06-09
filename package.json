@@ -1,6 +1,6 @@
 {
   "name": "@rafaelsilvadeveloper/fast-media-tags",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "An ultra-lightweight, zero-dependency binary ID3v2 tag parser for Node/Bun/Edge, optimized for high speed and low memory.",
   "repository": {
     "type": "git",
